@@ -177,11 +177,11 @@
         
         }
     .footer__items-logo img {
-        max-width:350px;
+        max-width:370px;
         height:auto;
         display:block;
-        margin
-    }
+        padding:0 30px;
+   }
 
 
 
