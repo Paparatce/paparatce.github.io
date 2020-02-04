@@ -175,10 +175,10 @@
     }
    .footer__items-logo img{
         
-        max-width:260px;
+        max-width:auto;
         height:auto;
         display:block;
-       
+       padding:0 40px;
         }
     
    }
