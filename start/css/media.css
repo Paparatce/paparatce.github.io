@@ -170,12 +170,10 @@
         margin-bottom: 30px;
         width: 100%; 
     }
-    .footer__items-logo{
-        
-    }
+    
    .footer__items-logo img{
         
-        max-width:30%;
+        max-width:60%;
         height:auto;
         display:block;
       
