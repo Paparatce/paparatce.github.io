@@ -171,14 +171,14 @@
         width: 100%; 
     }
     .footer__items-logo{
-        margin: 30px 0;
+        
     }
    .footer__items-logo img{
         
         max-width:30%;
         height:auto;
         display:block;
-       padding:0 40px;
+      
         }
     
    }
