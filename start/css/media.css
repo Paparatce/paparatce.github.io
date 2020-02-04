@@ -176,7 +176,10 @@
    .footer__items-logo img{
         
         }
-    
+    .footer__items-logo img {
+        max-width:70%;
+        height:auto;
+        display:block;
     }
 
 
