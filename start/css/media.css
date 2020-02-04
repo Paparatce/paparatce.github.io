@@ -171,21 +171,24 @@
         width: 100%; 
     }
     
-   .footer__items-logo img{
-        
+   .footer__items-logo img{      
         max-width:350px;
         height:auto;
         display:block;
-      
-        }
+}
     
         .top, .reviews, .price {
-   
-    padding-bottom: 0px;
+         padding-bottom: 25px;
 }
+        .reviews-slider .slick-slide {
+         padding-bottom: 15px;
    }
-
-
+        .footer__items-logo{
+        margin:15px 0;
+        }
+        
+      
+}
 
 
 
