@@ -177,7 +177,7 @@
         
         }
     .footer__items-logo img {
-        max-width:70%;
+        width:auto;
         height:auto;
         display:block;
     }
