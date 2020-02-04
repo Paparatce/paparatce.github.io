@@ -178,13 +178,14 @@
 }
     
         .top, .reviews, .price {
-         padding-bottom: 25px;
+         padding: 25px 0;
 }
         .reviews-slider .slick-slide {
          padding-bottom: 15px;
    }
         .footer__items-logo{
         margin:15px 0;
+            
         }
         
       
