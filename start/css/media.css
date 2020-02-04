@@ -143,8 +143,22 @@
     .reviews-slider .slick-slide{
         padding-bottom: 30px;
     }
-    .footer__items-logo{
-        margin: 50px 0;
+     .footer__items-logo img{      
+        max-width:60%;
+        height:auto;
+        display:block;
+}
+    
+        .top, .reviews, .price {
+         padding: 35px 0;
+}
+        .reviews-slider .slick-slide {
+         padding-bottom: 25px;
+   }
+        .footer__items-logo{
+        padding:25px 0;
+        margin:0;    
+        }
     }
     }
     @media (max-width: 399px){
