@@ -173,12 +173,16 @@
     
    .footer__items-logo img{
         
-        max-width:100%;
+        max-width:350px;
         height:auto;
         display:block;
       
         }
     
+        .top, .reviews, .price {
+   
+    padding-bottom: 0px;
+}
    }
 
 
