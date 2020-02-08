@@ -428,6 +428,9 @@ font-weight: 700;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+     justify-content: center;
+    align-items: center;
+    
 }
 .footer__item-logo li{
     padding: 0 20px;
