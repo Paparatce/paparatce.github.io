@@ -111,7 +111,7 @@
           padding-bottom: 40px;
         }
         .footer__items-logo img{
-            max-width: 85%;
+            max-width: 100px;
         }
         .footer__items-logo{
             padding: 30px 10 30px 35px;}
@@ -144,7 +144,7 @@
         justify-content: flex-start;
     }
     .footer__items-logo img{
-        max-width: 85%;
+        max-width: 90px;
     }
     .footer__items-logo{
         padding: 30px 10 30px 35px;}
@@ -172,7 +172,7 @@
       padding-bottom: 40px;
     }
     .footer__items-logo img{
-        max-width: 85%;
+        max-width: 75px;
     }
 }
     @media (max-width: 399px){
