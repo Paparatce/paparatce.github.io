@@ -200,7 +200,10 @@
     }
     .footer__items-logo{
        padding: 30px 10px 30px 35px;
-        align-items: center;
+        display: flex;
+       flex-wrap: wrap;
+       align-items:center;
+       justify-content: center;
     }
     .footer__item-logo li{
       padding: 0 5px;
