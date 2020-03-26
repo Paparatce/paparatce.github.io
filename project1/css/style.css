@@ -1,0 +1,219 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+@font-face {
+    font-family: helvetica;
+    src: url(../fonts/HelveticaNeue.ttf);
+}
+
+.container {
+    max-width: 970px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    padding: 20px 0px;
+    align-items: center;
+}
+
+.header__logo a {
+    font-size: 36px;
+    color: #e8603c;
+}
+
+.header__logo a span {
+    color: #f3af9d;
+}
+
+.header__menu-list a {
+    font-size: 16px;
+    color: #b9b9b9;
+}
+
+.header__menu-list li {
+    padding: 0 13px;
+}
+
+.header__menu-list a:hover {
+    color: #e8663c;
+    transition: all 0.5s;
+}
+
+.slider {
+    padding-bottom: 16px;
+    position: relative;
+}
+
+.slider_elements::before {
+    content: '';
+    background-color: #f0ac9a;
+    width: 195px;
+    height: 60px;
+    display: block;
+    position: absolute;
+}
+
+.slider_elements::after {
+    content: '';
+    background-color: #f0ac9a;
+    width: 195px;
+    height: 60px;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.slider__wrapper {
+    height: 124px;
+    width: 415px;
+    background-color: rgba(232, 102, 60, .8);
+    position: absolute;
+    left: 43px;
+    bottom: 32px;
+}
+
+.slider__item-title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+    color: #fff;
+    padding: 22px 0 0 17px;
+}
+
+.slider__item-text {
+    font-size: 12px;
+    color: #fff;
+    padding: 20px 0 25px 19px;
+}
+
+.slider__item_big-1 {
+    background-image: url(../images/slider-bg_1.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    min-height: 400px;
+    position: relative;
+}
+
+.slider__item_big-2 {
+    background-image: url(../images/slider-bg_2.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    min-height: 400px;
+    position: relative;
+}
+
+.slider__item_big-3 {
+    background-image: url(../images/slider-bg_3.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    min-height: 400px;
+}
+
+.slider__item_big-4 {
+    background-image: url(../images/slider-bg_4.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    min-height: 400px;
+}
+
+.slider__item_big-5 {
+    background-image: url(../images/slider-bg_5.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    min-height: 400px;
+}
+
+.slider__item_big-6 {
+    background-image: url(../images/slider-bg_6.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    min-height: 400px;
+}
+
+.slider__item_smoll-1 {
+    background-image: url(../images/slider-bg_smoll1.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 120px;
+    width: 140px;
+}
+
+.slider__item_smoll-2 {
+    background-image: url(../images/slider-bg_2.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 120px;
+    width: 140px;
+}
+
+.slider__item_smoll-3 {
+    background-image: url(../images/slider-bg_3.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 120px;
+    width: 140px;
+}
+
+.slider__item_smoll-4 {
+    background-image: url(../images/slider-bg_4.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 120px;
+    width: 140px;
+}
+
+.slider__item_smoll-5 {
+    background-image: url(../images/slider-bg_5.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 120px;
+    width: 140px;
+}
+
+.slider__item_smoll-6 {
+    background-image: url(../images/slider-bg_6.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 120px;
+    width: 140px;
+}
+
+
